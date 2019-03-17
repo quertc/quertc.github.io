@@ -1,2 +1,2 @@
 # quertc.github.io
-Small portfolio
+Small portfolio / practice / theory / etc ...
