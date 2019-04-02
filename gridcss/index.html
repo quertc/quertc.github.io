@@ -140,23 +140,24 @@
 	</footer>
 
 	<script>
-		window.onload = () => {
-			
+		window.onload = () => {			
 			setTimeout(() => {
 				document.querySelector('.preloader').classList.toggle('done');
 				document.body.style.overflowY = 'visible';
-			}, 1000)
+			}, 1000);
 
 			let form = document.forms[0];
+
 			for (let i = 0; i <= 2; i++) {
 				form[i].onfocus = () => {
-					form[i].style.color = '#000'
-				}
+					form[i].style.color = '#000';
+				};
+
 				form[i].onblur = () => {
-					form[i].style.color = '#517487'
-				}
-			}		
-		}
+					form[i].style.color = '#517487';
+				};
+			};
+		};
 	</script>
 </body>
 </html>
