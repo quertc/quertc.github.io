@@ -1,3 +1,3 @@
-# quertc.github.io
+# You're welcome here
 
-> Small portfolio / practice / theory / etc ...
+This repository contains a small portfolio and practice
