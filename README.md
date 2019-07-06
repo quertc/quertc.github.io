@@ -1,3 +1,2 @@
 # You're welcome here
-
-This repository contains a small portfolio and practice
+A small amount of my work is stored here

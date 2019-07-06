@@ -1,11 +1,11 @@
 # Landing on grid technology
 
 #### English
-Landing made on css grid technology on psd layout by Gosha Dudar.
-Adaptive and rubber for all devices.  
-(BEM methodology isn't used)
+Landing page made on the css grid technology on psd layout WebDesign Master.
+Adaptive for all devices.  
+(BEM methodology not used)
 
 #### Russian
-Лендинг сделанный на технологии css grid по psd макету Гоши дударя.
-Адаптивный и резиновый под все устройства.  
+Лендинг сделанный на технологии css grid по psd макету WebDesign Master.
+Адаптивный под все устройства.  
 (Методология БЭМ не используется)
