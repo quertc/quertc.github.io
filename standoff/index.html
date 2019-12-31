@@ -1,1 +1,588 @@
-<!DOCTYPE html><html lang=en><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><link rel=icon href=/standoff/favicon.ico><link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel=stylesheet><link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel=stylesheet><script src=https://kit.fontawesome.com/5f42646049.js></script><title>Standoff Drop</title><link href=/standoff/css/app.ed11046c.css rel=preload as=style><link href=/standoff/js/app.05174e89.js rel=preload as=script><link href=/standoff/js/chunk-vendors.e2d460a4.js rel=preload as=script><link href=/standoff/css/app.ed11046c.css rel=stylesheet></head><body><noscript><strong>We're sorry but Standoff Drop doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=app></div><script src=/standoff/js/chunk-vendors.e2d460a4.js></script><script src=/standoff/js/app.05174e89.js></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5f42646049.js"></script>
+    <title>Standoff Drop</title>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but Standoff Drop doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+
+    <header class="header">
+      <div class="header__wrap">
+        <div class="hamburger-menu">
+          <span class="hamburger-menu__line"></span>
+          <span class="hamburger-menu__line"></span>
+          <span class="hamburger-menu__line"></span>
+        </div>
+        <nav class="menu">
+          <ul class="menu__navigation">
+            <li class="menu__navigation-item">
+              <a href="#" class="menu__navigation-link menu__navigation-link_active">ГЛАВНАЯ</a>
+            </li>
+            <li class="menu__navigation-item">
+              <a href="#" class="menu__navigation-link">КОНТРАКТЫ</a>
+            </li>
+            <li class="menu__navigation-item">
+              <a href="#" class="menu__navigation-link">ТОП</a>
+            </li>
+            <li class="menu__navigation-item">
+              <a href="#" class="menu__navigation-link">FAQ</a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="mobile-menu">
+          <button class="mobile-menu__closebtn" aria-label="Close">
+            <span class="mobile-menu__closebtn-line"></span>
+            <span class="mobile-menu__closebtn-line"></span>
+          </button>
+          <a href="#" class="mobile-menu__logo">
+            <img src="assets/header/standoff-logo.png" alt="logo"> 
+          </a>
+          <ul class="mobile-menu__navigation">
+            <li class="mobile-menu__navigation-item">
+              <a href="#" class="mobile-menu__navigation-link mobile-menu__navigation-link_active">ГЛАВНАЯ</a>
+            </li>
+            <li class="mobile-menu__navigation-item">
+              <a href="#" class="mobile-menu__navigation-link">КОНТРАКТЫ</a>
+            </li>
+            <li class="mobile-menu__navigation-item">
+              <a href="#" class="mobile-menu__navigation-link">ТОП</a>
+            </li>
+            <li class="mobile-menu__navigation-item">
+              <a href="#" class="mobile-menu__navigation-link">FAQ</a>
+            </li>
+          </ul>
+          <a href="https://vk.com/" target="_blank" class="mobile-menu__social-link">
+            <i class="fab fa-vk"></i>
+            ГРУППА
+          </a>
+        </nav>
+        <div class="overlay"></div>
+        <a href="#" class="header__logo">
+          <img src="assets/header/standoff-logo.png" alt="logo"> 
+        </a>
+        <div class="sidebar">
+          <a href="https://vk.com/" target="_blank" class="sidebar__social-link">
+            <i class="fab fa-vk"></i>
+            ГРУППА
+          </a>
+          <div class="profile">
+            <a href="#" class="profile__link">
+              <img src="assets/header/profilebtn.png" alt="button" class="profile__link-img">
+              <span class="profile__link-name">Alexander</span>
+            </a>
+            <div class="profile__block">
+              <a href="#" class="profile__block-avatar">
+                <div class="profile__block-avatar-circle">
+                  <div class="profile__block-avatar-round"></div>
+                </div>
+                <div class="profile__block-balance">1,250 RUB</div>
+              </a>
+              <a href="#" class="profile__block-button">
+                <span class="profile__block-button-text">ПОПОЛНИТЬ</span>
+              </a>
+              <a href="#" class="profile__enter-button">
+                <img src="assets/header/verified.png" alt="enter button" class="profile__enter-button-icon">
+                <span class="profile__enter-button-text">ВОЙТИ</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="live-tape">
+      <div class="live-tape__guns">
+        <a href="#"
+          style="background: url(assets/live-lenta/drop-color/grey.png) no-repeat center, url(assets/live-lenta/dropbg.png) no-repeat center;"
+          class="drop-item" 
+        >
+          <img src="assets/live-lenta/drop/1.png" alt="drop icon" class="drop-item__icon">
+          <div class="drop-item__title">Gerderoned</div>
+        </a>
+        <a href="#"
+          style="background: url(assets/live-lenta/drop-color/darkblue.png) no-repeat center, url(assets/live-lenta/dropbg.png) no-repeat center;"
+          class="drop-item" 
+        >
+          <img src="assets/live-lenta/drop/2.png" alt="drop icon" class="drop-item__icon">
+          <div class="drop-item__title">M4 Predator</div>
+        </a>
+        <a href="#"
+          style="background: url(assets/live-lenta/drop-color/grey.png) no-repeat center, url(assets/live-lenta/dropbg.png) no-repeat center;"
+          class="drop-item" 
+        >
+          <img src="assets/live-lenta/drop/3.png" alt="drop icon" class="drop-item__icon">
+          <div class="drop-item__title">Taiger</div>
+        </a>
+        <a href="#"
+          style="background: url(assets/live-lenta/drop-color/gold.png) no-repeat center, url(assets/live-lenta/dropbg.png) no-repeat center;"
+          class="drop-item" 
+        >
+          <img src="assets/live-lenta/drop/4.png" alt="drop icon" class="drop-item__icon">
+          <div class="drop-item__title">Lezuurio</div>
+        </a>
+        <a href="#"
+          style="background: url(assets/live-lenta/drop-color/pink.png) no-repeat center, url(assets/live-lenta/dropbg.png) no-repeat center;"
+          class="drop-item" 
+        >
+          <img src="assets/live-lenta/drop/5.png" alt="drop icon" class="drop-item__icon">
+          <div class="drop-item__title">Buuredr</div>
+        </a>
+        <a href="#"
+          style="background: url(assets/live-lenta/drop-color/grey.png) no-repeat center, url(assets/live-lenta/dropbg.png) no-repeat center;"
+          class="drop-item" 
+        >
+          <img src="assets/live-lenta/drop/1.png" alt="drop icon" class="drop-item__icon">
+          <div class="drop-item__title">Gerderoned</div>
+        </a>
+        <a href="#"
+          style="background: url(assets/live-lenta/drop-color/purple.png) no-repeat center, url(assets/live-lenta/dropbg.png) no-repeat center;"
+          class="drop-item" 
+        >
+          <img src="assets/live-lenta/drop/6.png" alt="drop icon" class="drop-item__icon">
+          <div class="drop-item__title">M4 Predator</div>
+        </a>
+        <a href="#"
+          style="background: url(assets/live-lenta/drop-color/red.png) no-repeat center, url(assets/live-lenta/dropbg.png) no-repeat center;"
+          class="drop-item" 
+        >
+          <img src="assets/live-lenta/drop/7.png" alt="drop icon" class="drop-item__icon">
+          <div class="drop-item__title">Read Bloor</div>
+        </a>
+        <a href="#"
+          style="background: url(assets/live-lenta/drop-color/grey.png) no-repeat center, url(assets/live-lenta/dropbg.png) no-repeat center;"
+          class="drop-item" 
+        >
+          <img src="assets/live-lenta/drop/3.png" alt="drop icon" class="drop-item__icon">
+          <div class="drop-item__title">Taiger</div>
+        </a>
+        <a href="#"
+          style="background: url(assets/live-lenta/drop-color/darkblue.png) no-repeat center, url(assets/live-lenta/dropbg.png) no-repeat center;"
+          class="drop-item" 
+        >
+          <img src="assets/live-lenta/drop/2.png" alt="drop icon" class="drop-item__icon">
+          <div class="drop-item__title">M4 Predator</div>
+        </a>
+        <a href="#"
+          style="background: url(assets/live-lenta/drop-color/blue.png) no-repeat center, url(assets/live-lenta/dropbg.png) no-repeat center;"
+          class="drop-item" 
+        >
+          <img src="assets/live-lenta/drop/8.png" alt="drop icon" class="drop-item__icon">
+          <div class="drop-item__title">Banderlog</div>
+        </a>
+        <a href="#"
+          style="background: url(assets/live-lenta/drop-color/grey.png) no-repeat center, url(assets/live-lenta/dropbg.png) no-repeat center;"
+          class="drop-item" 
+        >
+          <img src="assets/live-lenta/drop/1.png" alt="drop icon" class="drop-item__icon">
+          <div class="drop-item__title">Gerderoned</div>
+        </a>
+        <a href="#"
+          style="background: url(assets/live-lenta/drop-color/purple.png) no-repeat center, url(assets/live-lenta/dropbg.png) no-repeat center;"
+          class="drop-item" 
+        >
+          <img src="assets/live-lenta/drop/9.png" alt="drop icon" class="drop-item__icon">
+          <div class="drop-item__title">Buuredr</div>
+        </a>
+      </div>
+      <div class="live-tape__icon"><span class="live-tape__icon-text">LIVE ЛЕНТА</span></div>
+    </div>
+
+    <div class="info-block">
+      <div class="user-bonuses">
+        <div class="bonus-box">
+          <div class="bonus-box__content">
+            <div class="bonus-box__text">
+              <div class="bonus-box__text-title">Бонус при пополнении</div>
+              <div class="bonus-box__text-subtitle">+10% к пополнению баланса</div>
+            </div>
+            <div class="bonus-box__block">
+              <div class="bonus-box__code">
+                <span class="bonus-box__code-text">YCUJ1WD</span>
+              </div>
+              <a href="#" class="bonus-box__copy-btn"></a>
+            </div>
+          </div>
+        </div>
+        <div class="user-bonuses__items">
+          <div class="user-bonuses__freecases">
+            <div class="user-bonuses__freecases-text">Бесплатные кейсы</div>
+            <a href="#" class="user-bonuses__freecases-infolink">
+              <div class="user-bonuses__freecases-infolink-green"></div>
+            </a>
+          </div>
+          <div class="user-bonuses__referral">
+            <div class="user-bonuses__referral-text">Реферальная система</div>
+            <a href="#" class="user-bonuses__referral-infolink">
+              <div class="user-bonuses__freecases-infolink-green"></div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <img src="assets/info-block/slider.svg" alt="slider" class="info-block__slider">
+      <div class="discount-box">
+        <div class="discount-box__discount">
+          <div class="discount-box__discount-text">
+            Осенние скидки <span class="discount-box__discount-text_yellow">на все кейсы!</span>
+            <div class="discount-box__discount-subtext">Осталось немного времени, успей купить.</div>
+          </div>
+          <div class="discount-box__discount-countdown">
+            <div class="discount-box__discount-countdown-time">15 <span class="discount-box__discount-countdown-time_grey">д.</span></div>
+            <div class="discount-box__discount-countdown-time">17 <span class="discount-box__discount-countdown-time_grey">ч.</span></div>
+            <div class="discount-box__discount-countdown-time">32 <span class="discount-box__discount-countdown-time_grey">м.</span></div>
+          </div>
+        </div>
+        <div class="free-case">
+          <div class="free-case__content">
+            <div class="free-case__text">Бесплатный кейс <span class="free-case__text_yellow">каждые 24 часа!</span></div>
+            <a href="#" class="free-case__button"> 
+              <img src="assets/info-block/bonus_icon.png" alt="bonus" class="free-case__button-icon">
+              Открыть кейс
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="transition">
+      <img src="assets/main/transition.png" alt="transition">
+    </div>
+
+    <main class="main">
+      <div class="main__title">
+        <div class="main__title-text">Особенные кейсы</div>
+        <div class="main__arrow"></div>
+      </div>
+      <div class="cases">
+        <div class="case case-discount">
+          <div class="case__title">
+            <div class="case__title-name">Roual Battle</div>
+            <div class="case__title-price">
+              <div class="case__discount">-25%</div>
+              <div class="case__mark"></div>
+              299 р.
+            </div>
+          </div>
+          <img src="assets/main/1.png" alt="case icon" class="case__icon">
+          <a href="#" class="case__button"> 
+            <img src="assets/info-block/bonus_icon.png" alt="bonus" class="case__button-icon">
+            Открыть кейс
+          </a>
+        </div>
+        <div class="case">
+          <div class="case__title">
+            <div class="case__title-name">Roual Battle</div>
+            <div class="case__title-price">
+              <div class="case__discount">-25%</div>
+              <div class="case__mark"></div>
+              199 р.
+            </div>
+          </div>
+          <img src="assets/main/2.png" alt="case icon" class="case__icon">
+          <a href="#" class="case__button"> 
+            <img src="assets/info-block/bonus_icon.png" alt="bonus" class="case__button-icon">
+            Открыть кейс
+          </a>
+        </div>
+        <div class="case">
+          <div class="case__title">
+            <div class="case__title-name">Roual Battle</div>
+            <div class="case__title-price">
+              <div class="case__discount">-25%</div>
+              <div class="case__mark"></div>
+              109 р.
+            </div>
+          </div>
+          <img src="assets/main/3.png" alt="case icon" class="case__icon">
+          <a href="#" class="case__button"> 
+            <img src="assets/info-block/bonus_icon.png" alt="bonus" class="case__button-icon">
+            Открыть кейс
+          </a>
+        </div>
+        <div class="case">
+          <div class="case__title">
+            <div class="case__title-name">Roual Battle</div>
+            <div class="case__title-price">
+              <div class="case__discount">-25%</div>
+              <div class="case__mark"></div>
+              99 р.
+            </div>
+          </div>
+          <img src="assets/main/4.png" alt="case icon" class="case__icon">
+          <a href="#" class="case__button"> 
+            <img src="assets/info-block/bonus_icon.png" alt="bonus" class="case__button-icon">
+            Открыть кейс
+          </a>
+        </div>
+        <div class="case">
+          <div class="case__title">
+            <div class="case__title-name">Roual Battle</div>
+            <div class="case__title-price">
+              <div class="case__discount">-25%</div>
+              <div class="case__mark"></div>
+              75 р.
+            </div>
+          </div>
+          <img src="assets/main/5.png" alt="case icon" class="case__icon">
+          <a href="#" class="case__button"> 
+            <img src="assets/info-block/bonus_icon.png" alt="bonus" class="case__button-icon">
+            Открыть кейс
+          </a>
+        </div>
+        <div class="case">
+          <div class="case__title">
+            <div class="case__title-name">Roual Battle</div>
+            <div class="case__title-price">
+              <div class="case__discount">-25%</div>
+              <div class="case__mark"></div>
+              59 р.
+            </div>
+          </div>
+          <img src="assets/main/6.png" alt="case icon" class="case__icon">
+          <a href="#" class="case__button"> 
+            <img src="assets/info-block/bonus_icon.png" alt="bonus" class="case__button-icon">
+            Открыть кейс
+          </a>
+        </div>
+        <div class="case">
+          <div class="case__title">
+            <div class="case__title-name">Roual Battle</div>
+            <div class="case__title-price">
+              <div class="case__discount">-25%</div>
+              <div class="case__mark"></div>
+              39 р.
+            </div>
+          </div>
+          <img src="assets/main/7.png" alt="case icon" class="case__icon">
+          <a href="#" class="case__button"> 
+            <img src="assets/info-block/bonus_icon.png" alt="bonus" class="case__button-icon">
+            Открыть кейс
+          </a>
+        </div>
+        <div class="case">
+          <div class="case__title">
+            <div class="case__title-name">Roual Battle</div>
+            <div class="case__title-price">
+              <div class="case__discount">-25%</div>
+              <div class="case__mark"></div>
+              15 р.
+            </div>
+          </div>
+          <img src="assets/main/8.png" alt="case icon" class="case__icon">
+          <a href="#" class="case__button"> 
+            <img src="assets/info-block/bonus_icon.png" alt="bonus" class="case__button-icon">
+            Открыть кейс
+          </a>
+        </div>
+      </div>
+
+      <div class="main__popular-cases">Популярные кейсы</div>
+      
+      <div class="cases">
+        <div class="case case-discount">
+          <div class="case__title">
+            <div class="case__title-name">Roual Battle</div>
+            <div class="case__title-price">
+              <div class="case__discount">-25%</div>
+              <div class="case__mark"></div>
+              299 р.
+            </div>
+          </div>
+          <img src="assets/main/1.png" alt="case icon" class="case__icon">
+          <a href="#" class="case__button"> 
+            <img src="assets/info-block/bonus_icon.png" alt="bonus" class="case__button-icon">
+            Открыть кейс
+          </a>
+        </div>
+        <div class="case">
+          <div class="case__title">
+            <div class="case__title-name">Roual Battle</div>
+            <div class="case__title-price">
+              <div class="case__discount">-25%</div>
+              <div class="case__mark"></div>
+              199 р.
+            </div>
+          </div>
+          <img src="assets/main/2.png" alt="case icon" class="case__icon">
+          <a href="#" class="case__button"> 
+            <img src="assets/info-block/bonus_icon.png" alt="bonus" class="case__button-icon">
+            Открыть кейс
+          </a>
+        </div>
+        <div class="case">
+          <div class="case__title">
+            <div class="case__title-name">Roual Battle</div>
+            <div class="case__title-price">
+              <div class="case__discount">-25%</div>
+              <div class="case__mark"></div>
+              109 р.
+            </div>
+          </div>
+          <img src="assets/main/3.png" alt="case icon" class="case__icon">
+          <a href="#" class="case__button"> 
+            <img src="assets/info-block/bonus_icon.png" alt="bonus" class="case__button-icon">
+            Открыть кейс
+          </a>
+        </div>
+        <div class="case">
+          <div class="case__title">
+            <div class="case__title-name">Roual Battle</div>
+            <div class="case__title-price">
+              <div class="case__discount">-25%</div>
+              <div class="case__mark"></div>
+              99 р.
+            </div>
+          </div>
+          <img src="assets/main/4.png" alt="case icon" class="case__icon">
+          <a href="#" class="case__button"> 
+            <img src="assets/info-block/bonus_icon.png" alt="bonus" class="case__button-icon">
+            Открыть кейс
+          </a>
+        </div>
+        <div class="case">
+          <div class="case__title">
+            <div class="case__title-name">Roual Battle</div>
+            <div class="case__title-price">
+              <div class="case__discount">-25%</div>
+              <div class="case__mark"></div>
+              75 р.
+            </div>
+          </div>
+          <img src="assets/main/5.png" alt="case icon" class="case__icon">
+          <a href="#" class="case__button"> 
+            <img src="assets/info-block/bonus_icon.png" alt="bonus" class="case__button-icon">
+            Открыть кейс
+          </a>
+        </div>
+        <div class="case">
+          <div class="case__title">
+            <div class="case__title-name">Roual Battle</div>
+            <div class="case__title-price">
+              <div class="case__discount">-25%</div>
+              <div class="case__mark"></div>
+              59 р.
+            </div>
+          </div>
+          <img src="assets/main/6.png" alt="case icon" class="case__icon">
+          <a href="#" class="case__button"> 
+            <img src="assets/info-block/bonus_icon.png" alt="bonus" class="case__button-icon">
+            Открыть кейс
+          </a>
+        </div>
+        <div class="case">
+          <div class="case__title">
+            <div class="case__title-name">Roual Battle</div>
+            <div class="case__title-price">
+              <div class="case__discount">-25%</div>
+              <div class="case__mark"></div>
+              39 р.
+            </div>
+          </div>
+          <img src="assets/main/7.png" alt="case icon" class="case__icon">
+          <a href="#" class="case__button"> 
+            <img src="assets/info-block/bonus_icon.png" alt="bonus" class="case__button-icon">
+            Открыть кейс
+          </a>
+        </div>
+        <div class="case">
+          <div class="case__title">
+            <div class="case__title-name">Roual Battle</div>
+            <div class="case__title-price">
+              <div class="case__discount">-25%</div>
+              <div class="case__mark"></div>
+              15 р.
+            </div>
+          </div>
+          <img src="assets/main/8.png" alt="case icon" class="case__icon">
+          <a href="#" class="case__button"> 
+            <img src="assets/info-block/bonus_icon.png" alt="bonus" class="case__button-icon">
+            Открыть кейс
+          </a>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__notice">
+        Пожалуйста ознакомьтесь с пользователським соглашением нашего сайта standoffdrop.ru до начала его использования. Авторизация на сайте standoffdrop.ru осуществляется через учетную
+        запись пользователя VK, Twitch, YouTube, Facebook. Сайт и VK, Twitch, YouTube, Facebook являются разными ресурсами, не подчиненными один другому. Авторизуясь на нашем сайте, Вы автоматически
+        соглашаетесь с пользовательским соглашением сайта. Если Вы не согласны с пользовательским соглашением, то просим Вас не авторизирвоаться и не использовать наш сайт!
+      </div>
+      <div class="footer__transition">
+        <img src="assets/footer/transition.svg" alt="transition" class="footer__transition-img">
+      </div>
+      <div class="footer__container">
+          <nav class="footer__menu">
+            <ul class="footer__menu-navigation">
+              <li class="footer__menu-navigation-item">
+                <a href="#" class="footer__menu-navigation-link footer__menu-navigation-link_active">ГЛАВНАЯ</a>
+              </li>
+              <li class="footer__menu-navigation-item">
+                <a href="#" class="footer__menu-navigation-link">КОНТРАКТЫ</a>
+              </li>
+              <li class="footer__menu-navigation-item">
+                <a href="#" class="footer__menu-navigation-link">ТОП</a>
+              </li>
+              <li class="footer__menu-navigation-item">
+                <a href="#" class="footer__menu-navigation-link">FAQ</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="footer__socio">
+            <a href="#" class="footer__socio-circle">
+              <div class="footer__socio-round">
+                <img src="assets/footer/vk_icon.png" alt="vk" class="footer__socio-vk">
+              </div>
+            </a>
+            <a href="#" class="footer__socio-circle">
+              <div class="footer__socio-round">
+                <img src="assets/footer/youtube_icon.png" alt="youtube" class="footer__socio-youtube">
+              </div>
+            </a>
+            <a href="#" class="footer__socio-circle">
+              <div class="footer__socio-round">
+                <img src="assets/footer/inst_icon.png" alt="inst" class="footer__socio-inst">
+              </div>
+            </a>
+          </div>
+          <div class="footer__logos">
+            <img src="assets/footer/romanov_logo.png" alt="romanov">
+            <a href="#">
+              <img src="assets/footer/logo.svg" alt="logo">
+            </a>
+          </div>
+      </div>
+    </footer>
+
+    <script>
+      const menu = document.querySelector('.mobile-menu'),
+            openButton = document.querySelector('.hamburger-menu'),
+            closeButton = document.querySelector('.mobile-menu__closebtn'),
+            links = document.querySelectorAll('.mobile-menu__navigation-item'),
+            overlay = document.querySelector('.overlay');
+
+      openButton.addEventListener('click', toggleMenu);
+      closeButton.addEventListener('click', toggleMenu);
+      overlay.addEventListener('click', toggleMenu);
+      links.forEach(item => item.addEventListener('click', toggleMenu));
+
+      function toggleMenu() {
+        menu.classList.toggle('mobile-menu_active');
+
+        if (menu.classList.contains('mobile-menu_active')) {
+          overlay.classList.add('overlay_active');
+        } else {
+          overlay.classList.remove('overlay_active');
+        }
+      }
+    </script>
+  </body>
+</html>
