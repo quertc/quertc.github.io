@@ -1,4 +1,4 @@
-# Landing on grid technology
+# Standoff Drop Home Page
 
 #### English
 Home page Standoff Drop.
