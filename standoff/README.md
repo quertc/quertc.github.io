@@ -1,9 +1,0 @@
-# Standoff Drop Home Page
-
-#### English
-Home page Standoff Drop.
-(The BEM methodology is used)
-
-#### Russian
-Главная страница проекта Standoff Drop.
-(Методология БЭМ используется)
